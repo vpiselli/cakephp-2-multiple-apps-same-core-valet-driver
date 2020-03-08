@@ -9,11 +9,11 @@ Installation
 1. Copy the file [`CakePHP2MultipleAppsSameCoreValetDriver.php`](CakePHP2MultipleAppsSameCoreValetDriver.php) to your Valet Drivers folder located at `~/.valet/Drivers` .
 2. Use the `link` command to point to each of the apps inside the CakePHP library.
 
-##Example:
+## Example:
 Suppose we have 3 apps within the root structure of the CakePHP directory as follows:
 
 
-    . 							# CakePHP root directory
+    . 						# CakePHP root directory
     ├── app						# First app
     │   ├── Plugin
     │   ├── Vendor
@@ -37,6 +37,7 @@ Suppose we have 3 apps within the root structure of the CakePHP directory as fol
 
 
 Then the commands to be executed would be the following:
+
 `cd ~/cakephp-installation/app/`
 
 `valet link app1`
