@@ -38,12 +38,15 @@ Suppose we have 3 apps within the root structure of the CakePHP directory as fol
 
 Then the commands to be executed would be the following:
 `cd ~/cakephp-installation/app/`
+
 `valet link app1`
 
 `cd ~/cakephp-installation/app2/`
+
 `valet link app2`
 
 `cd ~/cakephp-installation/app3/`
+
 `valet link app3`
 
 Done!
