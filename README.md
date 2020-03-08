@@ -11,26 +11,30 @@ Installation
 
 ##Example:
 Suppose we have 3 apps within the root structure of the CakePHP directory as follows:
-`~/cakephp-installation/`  
-	`/app`  
-		`..`  
-		`/Plugin`  
-		`/Vendor`  
-		`/webroot`  
-	`/app2`  
-		`..`  
-		`/Plugin`  
-		`/Vendor`  
-		`/webroot`  
-	`/app3`  
-		`..`  
-		`/Plugin`  
-		`/Vendor`  
-		`/webroot`  
-	`/lib`  
-	`/Cake`  
-	`/plugins`  
-	`/vendors`  
+
+
+    . 							# CakePHP root directory
+    ├── app						# First app
+    │   ├── Plugin
+    │   ├── Vendor
+    │   ├── webroot
+    │   └── ...
+    ├── app2					# Second app
+    │   ├── Plugin
+    │   ├── Vendor
+    │   ├── webroot
+    │   └── ...
+    ├── app3					# Third app
+    │   ├── Plugin
+    │   ├── Vendor
+    │   ├── webroot
+    │   └── ...
+    ├── lib
+    ├── Cake
+    ├── plugins
+    ├── vendors
+    └── ...
+
 
 Then the commands to be executed would be the following:
 `cd ~/cakephp-installation/app/`
